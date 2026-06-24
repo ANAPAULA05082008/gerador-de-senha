@@ -100,7 +100,8 @@ body {
 .parametro-senha__texto {
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
-
+    padding: 24px;
+    margin: 0px;
 
 }
 
