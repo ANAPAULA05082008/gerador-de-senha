@@ -10,3 +10,4 @@ tamanhoSenha=tamanhoSenha-1;
 botoes(1).onclick=aumentaTamanho;
 funcion aumentaTamanho () {
 tamanhoSenha=tamanhoSenha-1;
+}
