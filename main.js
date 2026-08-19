@@ -26,9 +26,16 @@ const CampoSenha=document.querySelector(#campo-senha);
 const letrasMaiusculas='ABCDEFG';
 geraSenha();
 funcion geraSenha(){
+
+    for (let i = 0; 1 < tamanhoSenha; i++) {
+        
+    
     let numeroAleatorio=Math.random()*letrasMaiusculas.length
-
-
-
+    numeroAleatorio=Math.floor(numeroAleatorio);
+    console.log(letrasMaiusculas[numeroAleatorio]);
+    
 
 }
+}
+
+
