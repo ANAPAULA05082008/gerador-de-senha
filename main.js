@@ -1,15 +1,20 @@
-const numeroSenha=document.queryselector('.parametro-senha_texto');
-NumeroSenha.textContent=5;
-const botoes=document.queryselector('parametro-senha_botao');
-botoes(0).onclick=diminuiTamanho;
-funcion diminuiTamanho () {
-if(tamanhoSenha-1;
+const numeroSenha=document.querySelector('.parametro-_texto');
+numeroSenha.textContent=12;//variavel que pode ser alterada
+
 numeroSenha.textContent=tamanhoSenha;
+const botoes=document.querySelectorAll('parametro-senha_botao');
+
+botoes[0].onclick=diminiuTamanho;
+function diminiuTamanho() {
+    if (tamanhoSenha>1) {
+        
+    }
+    tamanhoSenha=tamanhoSenha-1;
+    numeroSenha.textContent=tamanhoSenha;
 }
 
 botoes(1).onclick=aumentaTamanho;
-funcion aumentaTamanho () {
-tamanhoSenha=tamanhoSenha-1;
+function aumentaTamanho(){
+tamanhoSenha=tamanhoSenha+1
 numeroSenha.textContent=tamanhoSenha;
-
 }
