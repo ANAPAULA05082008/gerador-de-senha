@@ -3,8 +3,8 @@ let tamanhoSenha=12;//variavel que pode ser alterada
 
 numeroSenha.textContent=tamanhoSenha;//atribui o tamanho da senha para o numeroSenha
 const botoes=document.querySelectorAll('parametro-senha-botao');//seleciona todas
-botoes[0].onclick=dinuiTamanho;
-botoes[1].onclick=aumentaTamanho;
+botoes[0].onclick=dinuiTamanho();
+botoes[1].onclick=aumentaTamanho();
 function dinuiTamanho()  {
     if (tamanhoSenha >1) {
         tamanhoSenha--;
@@ -26,7 +26,7 @@ const CampoSenha=document.querySelector(#campo-senha);
 const letrasMaiusculas='ABCDEFG';
 geraSenha();
 funcion geraSenha(){
-    
+
 
 
 
