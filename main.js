@@ -38,4 +38,4 @@ funcion geraSenha(){
 }
 }
 
-
+CampoSenha.value=letrasMaiusculas;
